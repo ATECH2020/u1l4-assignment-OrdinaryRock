@@ -14,13 +14,15 @@ class Timestamps {
         int minutes2 = scanner.nextInt();
         int seconds2 = scanner.nextInt();
 
+        //Calculates the total number of seconds for each timestamp
+        int totalSeconds1 = (hours1 * 3600) + (minutes1 * 60) + seconds1;
+        int totalSeconds2 = (hours2 * 3600) + (minutes2 * 60) + seconds2;
 
-        /*
-         *  your code goes here
-         */
+        //Deduces the amount of time passed between the two timestamps, then prints it out
+        int timePassed = totalSeconds2 - totalSeconds1;
+        System.out.println(timePassed);
 
-
-        // closing the scanner object
+        //Closing the scanner object
         scanner.close();
     }
 }

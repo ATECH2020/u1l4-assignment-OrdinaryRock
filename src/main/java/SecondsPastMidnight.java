@@ -9,10 +9,12 @@ class SecondsPastMidnight {
         //Reads int from user
         int number = scanner.nextInt();
 
-        //Your code goes here
+        //Determines the number of full hours and minutes from the provided seconds (number)
+        int minutes = number/60;
+        int hours = minutes/60;
+        System.out.println(hours + " " + minutes);
 
-
-        // closing the scanner object
+        //Closing the scanner object
         scanner.close();
     }
 }
