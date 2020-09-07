@@ -16,7 +16,7 @@ class AnalogClock {
         int currentMinutes = (hoursOnClock * minutesOnClock) * hourAngle / circleAngle;
         int leftoverMinutes = currentMinutes%60;
         int minuteAngle = circleAngle * leftoverMinutes / minutesOnClock;
-        System.out.println(minuteAngle);
+        System.out.print(minuteAngle);
 
         // closing the scanner object
         scanner.close();

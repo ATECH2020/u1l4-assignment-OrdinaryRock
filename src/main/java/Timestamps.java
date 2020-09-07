@@ -20,7 +20,7 @@ class Timestamps {
 
         //Deduces the amount of time passed between the two timestamps, then prints it out
         int timePassed = totalSeconds2 - totalSeconds1;
-        System.out.println(timePassed);
+        System.out.print(timePassed);
 
         //Closing the scanner object
         scanner.close();

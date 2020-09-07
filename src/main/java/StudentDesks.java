@@ -19,7 +19,7 @@ class StudentDesks {
         
         //Adds up the total number of desks and prints them to the screen
         int totalDesks = desks1 + desks2 + desks3;
-        System.out.println(totalDesks);
+        System.out.print(totalDesks);
 
         //Closing the scanner object
         scanner.close();
